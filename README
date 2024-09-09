@@ -1,0 +1,16 @@
+Project Structure
+HTML - Basic structure of the application interface.
+CSS - Styles for a simple and functional presentation.
+JavaScript - Logic to search for exchange rates and calculate the conversion.
+
+Code Description
+HTML: Defines the user interface with fields for value input, currency selection, and a conversion button. Currency options are loaded dynamically using JavaScript.
+CSS: Applies simple styling, making the interface clean and easy to use.
+JavaScript:
+Loads the list of available currencies at page start.
+Adds an event to the form to convert the entered value when the button is clicked.
+Fetches updated exchange rates from an external API (in this case, the ExchangeRate API) to perform the conversion.
+Displays the conversion result or error messages in case of failure.
+Notes
+API Key: To use the application, you need a valid API key from an exchange rate service, such as the ExchangeRate API or Open Exchange Rates.
+Security: For development purposes and simplicity, the API key is placed directly in the script. For production, it is recommended to protect this key using environment variables or other secure practices.
